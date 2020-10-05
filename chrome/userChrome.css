@@ -1,0 +1,22 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+#browser, #navigator-toolbox toolbar:not(#nav-bar):not(#toolbar-menubar), #nav-bar {
+	-moz-box-ordinal-group: 0 !important;
+	padding-bottom: 0px;
+}
+
+#urlbar {
+	bottom: 5% !important;
+}
+
+#urlbar[focused] {
+	top: auto !important;
+}
+
+#TabsToolbar {
+visibility: collapse;
+}
+
+#titlebar {
+display: none;
+}
