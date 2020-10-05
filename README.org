@@ -4,18 +4,18 @@ Qutefox is a Firefox configuration with aims to add some [[https://qutebrowser.o
 * Install 
 Right now I only have the install instructions for GNU/Linux but the instructions shod be similar on window but with different file locations and different file locations and some things done in a windowser way.
 
-** GNU/Linux 
-1. Open Firefox and enter into the omnibar/urlbar "about:profile" click the create a new profile button the go thru the prompt. This step is optional but other wise you will be over writing your previous profile with Qutefox.
+**** GNU/Linux 
+Open Firefox and enter into the omnibar/urlbar "about:profile" click the create a new profile button the go thru the prompt. This step is optional but other wise you will be over writing your previous profile with Qutefox.
 
-2. Copy the "chrome" folder to the Qutefox profiles folder in "~/.mozilla/firefox/[Profile]".
+Copy the "chrome" folder to the Qutefox profiles folder in "~/.mozilla/firefox/[Profile]".
 #+BEGIN_SRC shell
 cp -r Qutefox/chrome ~/.mozilla/firefox/[Profie]
 #+END_SRC
 
-3. Either restart Firefox or launch the profile from about:profile. Enter in to the omnibar/urlbar "about:config", click accept the risk and continue. In the search feel enter "toolkit.legacyUserProfileCustomizations.stylesheets" then double click on the result to set the value to true. Then restart Firefox.
+Either restart Firefox or launch the profile from about:profile. Enter in to the omnibar/urlbar "about:config", click accept the risk and continue. In the search feel enter "toolkit.legacyUserProfileCustomizations.stylesheets" then double click on the result to set the value to true. Then restart Firefox.
 
-4. Then install the below plugins by clicking the link then the add to Firefox button.
+Then install the below plugins by clicking the link then the add to Firefox button.
 + [[https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search][Vimium-FF]]
 + [[https://addons.mozilla.org/en-US/firefox/addon/tab-center-redux/][Tab Center Redux]]
 
-5. Click the Hamburger menu in the bottom right corner then click customize. In the bottom left set the density to compact.
+Click the Hamburger menu in the bottom right corner then click customize. In the bottom left set the density to compact.
